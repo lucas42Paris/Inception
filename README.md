@@ -6,7 +6,7 @@ Inception est un projet d'administration système introduisant à l'utilisation 
 
 Le but du projet est de mettre en place une mini-infrastructure configurée dans une machine virtuelle, et qui utilise différents services : NGINX, WordPress et MariaDB.
 
-Chaque service devra tourner dans son propre container, qui seront ensuite reliés via un fichier docker-compose.yml (appelés par notre Makefile).
+Chaque service devra tourner dans son propre container, qui seront ensuite reliés via un fichier `docker-compose.yml` (appelés par notre Makefile).
 
 __Configuration detailee__ :
 
@@ -23,7 +23,7 @@ Inception is a system administration project introducing to Docker.
 
 The goal of the project is to set up a mini-infrastructure configured in a virtual machine, and which uses different services: NGINX, WordPress and MariaDB.
 
-Each service will have to run in its own container, which will then be linked via a docker-compose.yml file (called by our Makefile).
+Each service will have to run in its own container, which will then be linked via a `docker-compose.yml` file (called by our Makefile).
 
 __Detailed configuration__:
 
