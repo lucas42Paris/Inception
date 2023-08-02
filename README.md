@@ -8,7 +8,7 @@ Le but du projet est de mettre en place une mini-infrastructure configurée dans
 
 Chaque service devra tourner dans son propre container, qui seront ensuite reliés via un fichier `docker-compose.yml` (appelé par notre Makefile).
 
-__Configuration detailee__ :
+__Configuration détaillée__ :
 
 * Un container Docker contenant NGINX avec TLSv1.3.
 * Un container Docker contenant WordPress + php-fpm
