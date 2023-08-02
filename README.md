@@ -27,9 +27,9 @@ Each service will have to run in its own container, which will then be linked vi
 
 __Detailed configuration__:
 
-* A Docker container containing NGINX with TLSv1.3.
-* A Docker container containing WordPress + php-fpm
-* A Docker container containing MariaDB.
+* A Docker container for NGINX with TLSv1.3.
+* A Docker container for WordPress + php-fpm
+* A Docker container for MariaDB.
 * A volume containing our WordPress database
 * A volume containing the files of our WordPress site.
 * A docker-network that links our containers.
