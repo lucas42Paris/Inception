@@ -2,7 +2,7 @@
 
 🇫🇷
 
-Inception est un projet d'administration système introduisant à l'utilisation de Docker ![](/docker_whale.png)
+Inception est un projet d'administration système introduisant à l'utilisation de Docker ![](/docker_whale.jpg)
 
 Le but du projet est de mettre en place une mini-infrastructure configurée dans une machine virtuelle, et qui utilise différents services : NGINX, WordPress et MariaDB.
 
