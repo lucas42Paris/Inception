@@ -1,22 +1,5 @@
 # Inception
 
-🇫🇷
-
-Inception est un projet d'administration système introduisant à l'utilisation de Docker.
-
-Le but du projet est de mettre en place une mini-infrastructure configurée dans une machine virtuelle, et qui utilise différents services : NGINX, WordPress et MariaDB.
-
-Chaque service devra tourner dans son propre container, qui seront ensuite reliés via un fichier `docker-compose.yml` (appelé par notre Makefile).
-
-__Configuration détaillée__ :
-
-* Un container Docker contenant NGINX avec TLSv1.3.
-* Un container Docker contenant WordPress + php-fpm
-* Un container Docker contenant MariaDB.
-* Un volume contenant notre base de données WordPress
-* Un volume contenant les fichiers de notre site WordPress.
-* Un docker-network qui fait le lien entre nos containers.
-
 🇺🇸
 
 Inception is a system administration project introducing to Docker.
@@ -33,5 +16,22 @@ __Detailed configuration__:
 * A volume containing our WordPress database
 * A volume containing the files of our WordPress site.
 * A docker-network that links our containers.
+
+🇫🇷
+
+Inception est un projet d'administration système introduisant à l'utilisation de Docker.
+
+Le but du projet est de mettre en place une mini-infrastructure configurée dans une machine virtuelle, et qui utilise différents services : NGINX, WordPress et MariaDB.
+
+Chaque service devra tourner dans son propre container, qui seront ensuite reliés via un fichier `docker-compose.yml` (appelé par notre Makefile).
+
+__Configuration détaillée__ :
+
+* Un container Docker contenant NGINX avec TLSv1.3.
+* Un container Docker contenant WordPress + php-fpm
+* Un container Docker contenant MariaDB.
+* Un volume contenant notre base de données WordPress
+* Un volume contenant les fichiers de notre site WordPress.
+* Un docker-network qui fait le lien entre nos containers.
 
 ![Rating](rating.png)
